@@ -87,16 +87,16 @@ from [dbo].[heartrate_PerUser]
 
 /* Average MET energy used in relation to Intensity*/
 
-SELECT distinct MT.Id,
-CONVERT(VARCHAR(20), MT.ActivityMinute, 101) AS ActivityDate,
-CONVERT(VARCHAR(20), MT.ActivityMinute, 108) AS ActivityTime,  
-CAST ( AVG(TotalIntensity) AS DECIMAL (2)) AS Average_Intensity,
-AVG (MT.METs) AS Average_METs
-FROM dbo.HourlyIntensities AS HI  
-JOIN dbo.METS AS MT
-ON HI.ID = MT.Id AND HI.ActivityDate = MT.ActivityMinute 
-GROUP BY MT.Id, MT.ActivityMinute 
-ORDER BY  Average_METS DESC
+SELECT distinct HI.Id,
+CONVERT(VARCHAR(20), HI.ActivityHour, 101) AS ActivityDate,
+CONVERT(VARCHAR(20), HI.ActivityHour, 108) AS ActivityTime,  
+ AVG(TotalIntensity)  AS Average_Intensity,
+ROUND (AVG (MT.METs)/ 60,2)  AS Average_METs_perHour
+FROM dbo.METS AS MT
+JOIN dbo.Hourly_Intensity AS HI  
+ON HI.ID = MT.Id AND HI.ActivityHour = MT.ActivityMinute 
+GROUP BY HI.Id, HI.ActivityHour
+ORDER BY  Average_Intensity DESC
 
 
 /*  Average Steps per Hour Against Average Heart Rate */
