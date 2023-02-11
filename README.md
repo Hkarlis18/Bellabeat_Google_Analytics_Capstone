@@ -10,17 +10,17 @@ and trends that  Bellabeat could use to guide its marketing strategy.
 
 The case study follows the Google Analytics model for data analysis:
 
-### :one: Ask 
+### :one: [Ask](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#ask)
 
-### :two: Prepare
+### :two: [Prepare](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#prepare)
 
-### :three: Process
+### :three: [Process](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#process)
 
-### :four: Analyze
+### :four: [Analyze](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#analyze)
 
-### :five: Share
+### :five: [Share](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#share)
 
-### :six: Act
+### :six: [Act](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#act)
 
 
 ## Overview
@@ -69,7 +69,6 @@ guide its marketing strategy.
 
 ## Prepare 
 
-<a class="Summary" href="#">Back to Summary</a>
 
 Bellabeat has decided to use the dataset FitBit Fitness Tracker Data for this analysis. This is a public-domain
 dataset available through Mobius. The data is currently stored in Kaggle where it can be downloaded and stored
@@ -110,11 +109,11 @@ This type of information can become decisive in order to understand the habits o
 + The dataset was bought from a third party and a truthful source. However,  it lacks key information that could lead to a complete analysis. 
 In addition, it is not advisable to use data from 8 years ago to carry out market analysis in such a dynamic and changing field.
 
+:pushpin:  [Back to Summary](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#summary)
 
 
 ## Process
 
-<a class="Summary" href="#">Back to Summary</a>
 
 For the data cleaning process, Excel and SQL Server were used. The following checklist was applied to ensure the accuracy and integrity of the data:
 
@@ -258,7 +257,7 @@ from [dbo].[heartrate_PerUser]
 
 ``` 
 
-**File: METS AND Intensity**
+**File: METS and Intensity**
 
 First, examine the tables with the necessary data in Excel, before going for further analysis in SQL Server.
 
@@ -294,10 +293,9 @@ RIGHT JOIN dbo.Daily_activity_weight_updated AS ST
 ON HR.Id = ST.Id AND HR.ActivityDate = ST.ActivityDate
 ORDER BY ST.ActivityDate ASC
 ``` 
+:pushpin:  [Back to Summary](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#summary)
 
-## Analyze 
-
-<a class="Summary" href="#">Back to Summary</a>
+## Analyze
 
 The data was slipped into three areas of interest for a better analysis. Those areas included physical activity results, heart rate activity analysis, and 
 the sleeping habits and METs analysis. By analyzing these three areas of interest we can get an in-depth insight into how users are using their smart devices 
@@ -321,9 +319,10 @@ and 52% of the people are still overweight, showing an average of 134 kg.
  +  33 users were proactively tracking the energy they used in a daily basis (METs and Intensity). The lower the intensity, the higher the METs expenditure, 
  and vice versa. The hours with the hightest energy expenditure were between 9:00 A.M to 7:00 P.M. when people are awake and most active. 
  
+ :pushpin:  [Back to Summary](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#summary)
+ 
  ## Share 
  
- <a class="Summary" href="#">Back to Summary</a>
  
  All visualizations for this case study were created by using Power Bi
 
@@ -335,9 +334,10 @@ and 52% of the people are still overweight, showing an average of 134 kg.
 
 ![Bellabeat_Sleeping__METs_Analysis](https://user-images.githubusercontent.com/123211885/218183915-edc7b7b0-81a9-49fe-84fc-6bdeb5e270c1.png)
 
-## Act Phase
+:pushpin:  [Back to Summary](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#summary)
 
-<a class="Summary" href="#">Back to Summary</a>
+## Act 
+
 
 **Recommendations:**
 
@@ -371,4 +371,4 @@ location and by type of physical activity that is tracked in the app.
 were used in the past and didn't work and why.
 
 
-<a class="Summary" href="#">Back to Summary</a>
+:pushpin:  [Back to Summary](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#summary)
