@@ -25,7 +25,7 @@ The case study follows the Google Analytics model for data analysis:
 
 ## Overview
 
-Bellabeat is a high-tech company founded in 2013,  that manufactures smart products focused on health and women. 
+Bellabeat is a high-tech company founded in 2013 that manufactures smart products focused on health and women. 
 Urška Sršen and Sando Mur, founders of Bellabeat, are on the mission of collecting data on exercise, sleep, stress, 
 and reproductive health that will empower women.
 
