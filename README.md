@@ -297,8 +297,7 @@ ORDER BY ST.ActivityDate ASC
 
 ## Analyze
 
-The data was slipped into three areas of interest for a better analysis. Those areas included physical activity results, heart rate activity analysis, and 
-the sleeping habits and METs analysis. By analyzing these three areas of interest we can get an in-depth insight into how users are using their smart devices 
+The data was slipped into three areas of interest for a better analysis. Those areas included physical activity results, heart rate activity analysis, sleeping habits, and METs analysis. By analyzing these three areas of interest we can get an in-depth insight into how users are using their smart devices 
 and what are their physical habits on a daily basis. 
 
 
@@ -316,8 +315,8 @@ and 52% of the people are still overweight, showing an average of 134 kg.
  Finally, the average time asleep was 7 hours.
 
 
- +  33 users were proactively tracking the energy they used in a daily basis (METs and Intensity). The lower the intensity, the higher the METs expenditure, 
- and vice versa. The hours with the hightest energy expenditure were between 9:00 A.M to 7:00 P.M. when people are awake and most active. 
+ +  33 users were proactively tracking the energy they used on a daily basis (METs and Intensity). The lower the intensity, the higher the METs expenditure, 
+ and vice versa. The hours with the highest  energy expenditure were between 9:00 A.M. to 7:00 P.M. when people are awake and most active. 
  
  :pushpin:  [Back to Summary](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/edit/main/README.md#summary)
  
