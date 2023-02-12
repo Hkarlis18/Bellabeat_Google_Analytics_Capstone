@@ -76,8 +76,8 @@ on a local computer for future analysis.
 
 
 The information was gathered through a survey created via Amazon Mechanical Turk. Thirty Fitbit users agreed
-to share their personal data. The survey collected informationrelated to sleeping reports, heart rate, and 
-physical activities. Each user tracked differentaspects of their fitness activities from a period time between 
+to share their personal data. The survey collected information related to sleeping reports, heart rate, and 
+physical activities. Each user tracked different aspects of their fitness activities from a period time between 
 03.12.2016 to 05.12.2016.
 
 
@@ -93,7 +93,7 @@ from eight years ago, so it may not be relevant anymore.
 
 + When examining the size of the sample in detail, inconsistencies were found in the number of users, and the records of their physical activities
 per category, which creates information gaps and prevents more accurate results from being obtained during the analysis. 
-For example: only 8 users recorded their weight
+For example, only 8 users recorded their weight
 
 
 + Only thirty people consented to track their fitness data and shared it. The minimum sample size recommended for any 
