@@ -341,7 +341,7 @@ and 52% of the people are still overweight, showing an average of 134 kg.
 **Recommendations:**
 
 
-+ According to the data, people seems to be speeding too many hours in bed without resting.  Therefore, Bellabeat could add a new feature on the App to
++ According to the data, people seem to be spending too many hours in bed without resting.  Therefore, Bellabeat could add a new feature on the App to
 help users to improve their sleeping habits through meditation programs or even breathing techniques.
 
 
