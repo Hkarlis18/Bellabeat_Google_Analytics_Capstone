@@ -325,7 +325,8 @@ and 52% of the people are still overweight, showing an average of 134 kg.
  
  All visualizations for this case study were created by using Power Bi
 
-![Bellabeat_Physical_Analysis](https://user-images.githubusercontent.com/123211885/218180927-461415fb-8afc-4c9c-94af-c0436476d961.png)
+![Screenshot 2023-08-07 143100](https://github.com/Hkarlis18/Bellabeat_Google_Analytics_Capstone/assets/123211885/fae6513a-6ff8-40e6-8500-cae88acd92f9)
+
 
 
 ![Heart_Rate_Activity](https://user-images.githubusercontent.com/123211885/218182573-5e2ef35e-cbfa-434f-9e8f-8665bbd20483.png)
@@ -356,7 +357,7 @@ to benefits within the brand like access to free classes, or discounts on certai
 **Suggestions to improve in the future:**
 
 
-+ Gather more current data for analysis. It’s also fundamental to use a data sample-accurate to the reality of the market to be able to represent the population 
++ Gather more current data for analysis. It’s also fundamental to use a data sample accurate to the reality of the market to be able to represent the population 
 as a whole.
 
 + Guarantee to have the appropriate sample size and make sure the participants have filled in the information necessary for the different areas to be studied. 
